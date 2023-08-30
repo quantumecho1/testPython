@@ -1,51 +1,51 @@
-# Beschreibender Charakter, Länge und Klarheit verletzt
-def F():
-    print('\n' * 10)
-F()
+# Funktion, die zehn Zeilenumbrüche ausgibt
+def F1():
+    print('\n'*10)
+F1()
 
-# Abstraktion, Klarheit und PEP8 verletzt (CamelCase für Variablen)
-SFName="Keeley"
-SLName="Gould"
-h=SFName+" "+SLName
+# Erstellung und Kombination von Vorname und Nachname
+S1="K"
+S2="G"
+S3=S1+" "+S2
 
-# PEP8 verletzt (Leerzeichen fehlen)
-print(h)
-print(SLName+",\t\n",SFName)
-print(SLName+"\t"+SFName)
+# Ausgabe des vollen Namens in verschiedenen Formaten
+print(S3)
+print(S2+",\t\n",S1)
+print(S2+"\t"+S1)
 print()
 
-# Klarheit und Beschreibender Charakter verletzt
-print("A says hi!")
+# Ausgabe eines TExts
+print("Asayshi!")
 
 # Klarheit, Länge und PEP8 verletzt (CamelCase und kurze Namen)
-B1="NealeMcMillan"
+Z1="NMM"
 
-# PEP8 verletzt (Leerzeichen fehlen)
-print(B1)
-print(B1.upper())
+# Demonstration der Verwendung von String-Manipulation (Großbuchstaben)
+print(Z1)
+print(Z1.upper())
 print()
 
-# Klarheit und Abstraktion verletzt
-B2="Class X"
+# Demonstration der Verwendung von String-Manipulation (Zentrierung)
+Z2="Cx"
 
-# PEP8 verletzt (Leerzeichen fehlen)
-print(B2)
-print(B2.center(35,"-"))
+# Demonstration der Verwendung von Escape-Sequenzen und tab size
+print(Z2)
+print(Z2.center(35,"-"))
 
-# Abstraktion und Klarheit verletzt, PEP8 verletzt (Variable mit reserviertem Wortnamen)
-str="h\tw"
-print(str)
-print(str.expandtabs(tabsize=15))
+# Demonstration der Verwendung von String-Slicing
+Str_="h\tw"
+print(Str_)
+print(Str_.expandtabs(tabsize=15))
 
-# PEP8 verletzt (Leerzeichen fehlen)
-print(B2[0:1])
-print(B2[0:2])
-print(B2[0:3])
-print(B2[0:4])
+# Demonstration der Verwendung von Raw-Strings
+print(Z2[0:1])
+print(Z2[0:2])
+print(Z2[0:3])
+print(Z2[0:4])
 
-# Klarheit verletzt
-ti = r'c:\trash'
+# Demonstration der Verwendung von Raw-Strings
+ti='c:\\trash'
 print(ti)
 
-# Länge und Klarheit verletzt
-x=2
+# Beispiel für eine einfache Zuweisung einer Ganzzahl
+x1=2
