@@ -18,19 +18,19 @@ print()
 print("Asayshi!")
 
 # Klarheit, Länge und PEP8 verletzt (CamelCase und kurze Namen)
-Z1="NMM"
+zOne="NMM"
 
 # Demonstration der Verwendung von String-Manipulation (Großbuchstaben)
-print(Z1)
-print(Z1.upper())
+print(zOne)
+print(zOne.upper())
 print()
 
 # Demonstration der Verwendung von String-Manipulation (Zentrierung)
-Z2="Cx"
+zTwo="Cx"
 
 # Demonstration der Verwendung von Escape-Sequenzen und tab size
-print(Z2)
-print(Z2.center(35,"-"))
+print(zTwo)
+print(zTwo.center(35,"-"))
 
 # Demonstration der Verwendung von String-Slicing
 Str_="h\tw"
@@ -38,10 +38,10 @@ print(Str_)
 print(Str_.expandtabs(tabsize=15))
 
 # Demonstration der Verwendung von Raw-Strings
-print(Z2[0:1])
-print(Z2[0:2])
-print(Z2[0:3])
-print(Z2[0:4])
+print(zTwo[0:1])
+print(zTwo[0:2])
+print(zTwo[0:3])
+print(zTwo[0:4])
 
 # Demonstration der Verwendung von Raw-Strings
 ti='c:\\trash'
