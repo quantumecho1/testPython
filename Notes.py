@@ -4,14 +4,14 @@ def F1():
 F1()
 
 # Erstellung und Kombination von Vorname und Nachname
-S1="K"
-S2="G"
-S3=S1+" "+S2
+sOne="K"
+sTwo="G"
+sThree=sOne+" "+sTwo
 
 # Ausgabe des vollen Namens in verschiedenen Formaten
-print(S3)
-print(S2+",\t\n",S1)
-print(S2+"\t"+S1)
+print(sThree)
+print(sTwo+",\t\n",sOne)
+print(sTwo+"\t"+sOne)
 print()
 
 # Ausgabe eines TExts
